@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>music.app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="music.css">
+        <link rel="shortcut icon" href="#">
+        <script src="https://kit.fontawesome.com/6390168cba.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+      <div class="musicmaincontainer">
+        <div class="musicbarcontainer">
+          <p>testmusic.com</p>
+          <button class="musicplaytype infinitybutton"><i class="fa-solid fa-infinity"></i></button>
+          <button class="musicplaytype autoplaybutton"><i class="fa-solid fa-list"></i></button>
+          <button class="sunbutton"><i class="fa-solid fa-sun"></i></button>
+          <button class="moonbutton"><i class="fas fa-moon"></i></button>
+          <div class="totalmusic">music[0]</div>
+        </div>
+        <div class="playlistcontainer"></div>
+        <audio src="" class="audio"></audio>
+
+       <div class="musicplayercontainer">
+
+        <div class="currenttimeandtotaltime">00:00 / 00:00</div>
+        <div class="marqueecontainer">
+          <marquee class="marquee"></marquee>
+          <i class="fas fa-music" id="musicicon"></i>
+        </div>
+
+        <div id="progresscontainer">
+          <div id="currentprogress"></div>
+        </div>
+        <div class="musicplaycontainer">
+          <button class="control previousbutton"><i class="fa-solid fa-backward-step"></i></button>
+          <button class="control playbutton"><i class="fa-solid fa-play"></i></button>
+          <button class="control pausebutton"><i class="fa-solid fa-pause"></i></button>
+          <button class="control nextbutton"><i class="fa-solid fa-forward-step"></i></button>
+
+        </div>
+        <div class="toastalertmusic"></div>
+
+     <script src="music.js"></script>
+    </body>
+    </html>
